@@ -45,6 +45,15 @@ body {
 }
 
 .navlink {
-    color: blue;
+    color: white;
+    text-decoration: none;
     font-size: 20px;
+    padding: 10px;
+}
+
+.popup {
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
 }
