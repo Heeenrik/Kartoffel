@@ -33,3 +33,18 @@ body {
     display: flex;
     justify-content: center;
 }
+
+
+.nav {
+    position: fixed;
+    font-family: helvetica;
+    background-color: black;
+    width: 98vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlink {
+    color: blue;
+    font-size: 20px;
+}
