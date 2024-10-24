@@ -12,20 +12,29 @@ body {
     width: 98vw;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     
 }
 
-.Tofl {
+.Tofl-container img {
+    min-height: 0;
+}
+
+.Tofl, .Tomate, .Osaka{
     
     height: fit-content;
     display: flex;
     justify-content: center;
     transition: all, 2s;
+    height: 30vh;
 }
 
-.Tofl:hover {
+
+.Tofl:hover, .Tomate:hover, .Osaka:hover{
     transform: rotate(5000deg);
 }
+
+
 
 .Header {
     font-family: helvetica;
