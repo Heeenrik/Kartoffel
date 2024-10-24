@@ -1,0 +1,35 @@
+/* Resets */
+
+body {
+    margin: 0;
+}
+
+/* Elemente */
+
+.Tofl-container { 
+    background-color: paleturquoise;
+    height: 100vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Tofl {
+    
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    transition: all, 2s;
+}
+
+.Tofl:hover {
+    transform: rotate(5000deg);
+}
+
+.Header {
+    font-family: helvetica;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
